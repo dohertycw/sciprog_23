@@ -2,7 +2,7 @@
 #include <math.h>
 
 
-//Initialising all necessary functions. Also making our values of tan a global variable, so it can be called anywhere.
+//Initialising all necessary functions. Also making our values of tan a global variable, so it can be called anywhere. I've made radang a global variable for ease of printing and so that it can be used in the area function.
 float degtorad(float degang);
 float area(int N);
 float tanvalues[12], radang[12];
@@ -16,7 +16,6 @@ int main(void) {
 	//Constructing a for-loop from 0-12. Within we go from 0 -> 60 degrees in steps of 5, convert each step to radians using our degtorad function, place the result into the tan function and storing in our tanvalues array. The result is then printed.
 	for(i = 0; i<13; i++) {
 		degang = i*5.0;
-		//I've made radang a local array here to allow for ease of printing.
 		radang[i] = degtorad(degang);
 		tanvalues[i] = tan(radang[i]);
 		printf ("The tan of %f radians is %f \n", radang[i], tanvalues[i]);
