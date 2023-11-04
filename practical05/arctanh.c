@@ -35,7 +35,7 @@ int main(void){
 	double total = 0;
 	double mean;
 
-	//Creating a for loop to generate values of arctanh with both methods, storing results within our two arrays, calculating the
+	//Creating a while loop to generate values of arctanh with both methods, storing results within our two arrays, calculating the
 	//total difference between each iteration, printing results and then iterating x in steps of 0.01 as required and j in steps of 1.
 
 	int j = 0;
