@@ -1,4 +1,4 @@
-This folder includes my files for practical 7.
+This folder includes my files for practical 8.
 
 It includes two C files.
 
