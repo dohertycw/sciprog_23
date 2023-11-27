@@ -10,10 +10,10 @@ artanh2 calculate the natural logarithimic approximation for arctanh(x) using C'
 The main function requests a real, positive value for delta from the user. It then uses a while-loop to calculate values for arctanh(x) using each method from x = -0.9 to x = 0.9 in steps of 0.01, printing the difference between methods at each step and calculating the total difference. The mean difference is then also printed.
 
 In order to run these files, run the bash script:
-        gcc -o <executable_name> fibonacci.c -lm
+        gcc -o <executable name> fibonacci.c -lm
 and
-	gcc -o <executable_name> arctanh.c -lm
-where <executable_name> is an executable name of your choice, to compile the programmes and then
-        ./<executable_name>
+	gcc -o <executable name> arctanh.c -lm
+to compile the programmes, where <executable_name> is an executable name of your choice, and then
+        ./<executable name>
 to run them.
 Within the c file are comments explain how the code works.
